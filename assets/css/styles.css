@@ -1,0 +1,55 @@
+:root{
+    --text-color: black;
+    --link-color: #4a76ee;
+    --background-color:white;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background-color: var(background-color);
+}
+
+a{
+    color: var(--link-color);
+    text-decoration:none;
+}
+
+/* NAV BAR */
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 15px;
+    height:80px;
+    align-items:center;
+    background-color: var(--background-color);
+}
+
+nav .left a{
+    color: var(--text-color);
+    font-size:22px;
+    font-weight: 600;
+}
+
+nav .right a{
+    color: var(--text-color);
+    margin:0px 15px;
+}
+
+nav .right a:last-child{
+    color:white;
+    background-color:black;
+    font-size:18px;
+    padding:5px 20px;
+    border-radius: 5px;
+}
+
