@@ -19,17 +19,17 @@
     <header>
         <nav>
             <div class="left">
-                <a href="index.html">
+                <a href="index.php">
                     PORTFOLIO
                 </a>
             </div>
 
             <div class="right">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="project.html">Project</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="blog.html">Blog</a>
+                <a href="index.php">Home</a>
+                <a href="about.php">About</a>
+                <a href="project.php">Project</a>
+                <a href="gallery.php">Gallery</a>
+                <a href="blog.php">Blog</a>
                 <a href="mailto:vietthang05p@gmail.com">
                     <i class="fa-regular fa-envelope"></i>
                 </a>
