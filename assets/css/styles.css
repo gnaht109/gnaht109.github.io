@@ -1,7 +1,8 @@
 :root{
-    --text-color: black;
+    --text-color: #d9e1f1;
+    --text-color2:#52677d;
     --link-color: #4a76ee;
-    --background-color:white;
+    --background-color:#192338;
 }
 
 *{
@@ -32,6 +33,12 @@ nav{
     height:80px;
     align-items:center;
     background-color: var(--background-color);
+    position:fixed;
+    width: 100%; /* Add this */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    z-index: 1000; /* Ensure it stays above other content */
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 nav .left a{
@@ -45,9 +52,21 @@ nav .right a{
     margin:0px 15px;
 }
 
+nav .right a:hover{
+    color: var(--link-color);
+}
+
 nav .right a:last-child{
-    color:white;
-    background-color:black;
+    color:var(--text-color);
+    background-color:var(--text-color2);
+    font-size:18px;
+    padding:5px 20px;
+    border-radius: 5px;
+}
+
+nav .right a:last-child:hover{
+    color:var(--text-color2);
+    background-color:var(--text-color);
     font-size:18px;
     padding:5px 20px;
     border-radius: 5px;
@@ -62,6 +81,84 @@ nav .right a:last-child{
         display:block;
         margin:0px 0px;
     }
+}
+
+/* FOOTER */
+footer{
+    padding:100px 0;
+    background-color: var(--background-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-between;
+    color:var(--text-color);
+}
+
+.footer-container div{
+    flex: 1;
+    min-width: 200;
+    margin-left: 20px;
+}
+
+.footer-container h3{
+    font-size:36px;
+}
+
+.footer-container p{
+    font-size:12px;
+    color:var(--text-color2);
+    gap:5px;
+}
+
+.footer-container .links{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.footer-container .projects{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.footer-container a{
+    font-size:12px;
+    color:var(--text-color2);
+}
+
+.footer-container .icons {
+    display: flex;
+    gap: 10px;
+    margin-left:0;
+    margin-top: 25px;
+}
+
+.footer-container .icons a{
+    padding:5px 10px;
+    border-radius: 5px;
+    color:var(--text-color);
+    background-color: var(--text-color2);
+}
+
+.footer-container .icons a:hover{
+    background-color: var(--link-color);
+}
+
+.footer-container a:hover{
+    color:var(--text-color);
+}
+
+.footer-container .address{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+
+/* MAIN */
+main{
+    padding-top:80px;
 }
 
 /* SECTION: INDEX */
@@ -110,6 +207,11 @@ nav .right a:last-child{
     margin-bottom: 10px;
 }
 
+.index-section .text .links a:hover{
+    background-color: var(--link-color);
+    color:var(--text-color);
+}
+
 .index-section .headshot{
     flex:2;
     display:flex;
@@ -132,7 +234,7 @@ nav .right a:last-child{
     .index-section .text{
     flex:5;
     margin-left: 100px;
-}
+    }
 }
 
 
