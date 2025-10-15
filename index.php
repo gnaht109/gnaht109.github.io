@@ -29,8 +29,7 @@
                 <a href="about.php">About</a>
                 <a href="project.php">Project</a>
                 <a href="gallery.php">Gallery</a>
-                <a href="blog.php">Blog</a>
-                <a href="mailto:vietthang05p@gmail.com">
+                <a href="contact.php">
                     <i class="fa-regular fa-envelope"></i>
                 </a>
             </div>

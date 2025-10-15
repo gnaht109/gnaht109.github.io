@@ -2,82 +2,62 @@
 
 
 <main class="about-page">
-    <section class="hero">
-        <div class="headshot">
-            <img src="/assets/img/headshot.jpg">
-        </div>
-        <div>
-            <article class="introduction">
-                <h1><b>HELLO!</b></h1>
-                <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem sunt deleniti
-                vero voluptas earum iste iure magni aliquam provident! Ducimus repellendus itaque magni 
-                voluptatum repudiandae explicabo nisi aliquid similique laboriosam!
-                </p>
-            </article>
-                <div class="introduction-container">
-                    <p>vietthang05p@gmail.com</p>
-                    <p>(+84)868 278 098</p>
-                    </div>
-                <div class="introduction-container">
-                    <p>@vietthang109</p>
-                    <p>https://github.com/gnaht109</p>
-                </div>
-        </div>
-    </section>
-    <section class="information">
+    <section>
         <div class="left">
-            <div>
-                <article class="education">
-                    <h3>Education</h3>
-                    <p>2023-2027</p>
-                    <p>International University, VietNam</p>
-                    <p>Bachelor of Computer Science</p>
-                </article>
-                <article class="software-skills">
-                    <h3>Software Skills</h3>
-                    <p>
-                        <i class="fa-brands fa-php"></i>
-                        <span>PHP</span>
-                    </p>
-                    <p>
-                        <i class="fa-brands fa-java"></i>
-                        <span>Java</span>
-                    </p>
-                    <p>
-                        <i class="fa-brands fa-html5"></i>
-                        <span>HTML</span>
-                    </p>
-                    <p>
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <span>CSS</span>
-                    </p>
-                </article>
+            <div class="hinh">
+                <img src="assets/img/headshot.jpg">
+            </div>
+            <div class="about-me">
+                <h2>About me</h2>
+                <hr>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias eum aperiam vitae
+                error modi officia odit excepturi voluptate temporibus, perspiciatis minus beatae 
+                fugiat distinctio quis iure laboriosam unde? Sunt, fuga.</p>
+            </div>
+            <div class="language">
+                <h2>Language</h2>
+                <hr>
+                <h4>English</h4>
+                <h4>Vietnamese</h4>
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+                <hr>
+                <ul style="margin-left:20px">
+                    <li><i class="fa-brands fa-html5"><span>HTML</span></i></li>
+                    <li><i class="fa-brands fa-css3-alt"><span>CSS</span></i></li>
+                    <li><i class="fa-brands fa-js"><span>JavaScript</span></i></li>
+                    <li><i class="fa-brands fa-php"><span>PHP</span></i></li>
+                </ul>
             </div>
         </div>
         <div class="right">
-            <div class="inner-left">
-                <article class="experience">
-                    <h3>Experience</h3>
-                    <p>-Time Management</p>
-                    <p>-Good Teamwork</p>
-                    <p>-Creative</p>
-                    <p>-Attention to detail</p>
-                </article>
+            <div class="heading">
+                <h1>VIET THANG</h1>
+                <hr>
+                <h2>Web Developer</h2>
+                <hr>
             </div>
-            <div class="inner-right">
-                <article class="skills">
-                    <h3>Skill</h3>
-                    <p>-Time Management</p>
-                    <p>-Good Teamwork</p>
-                    <p>-Creative</p>
-                    <p>-Attention to detail</p>
-                </article>
-                <article class="language">
-                    <h3>Language</h3>
-                    <p>Vietnamese</p>
-                    <p>English</p>
-                </article>
+            <div class="contact">
+                <i class="fa-solid fa-phone"></i><span>(+84)868 278 098</span><br>
+                <i class="fa-solid fa-envelope"></i><span>vietthang05p@gmail.com</span><br>
+                <i class="fa-solid fa-location-dot"></i><span>J29 Street 3 HungPhu, CanTho</span><br>
+            </div>
+            <div class="education">
+                <h2>Education</h2>
+                <hr>
+                <h4>2023-2027 | Computer Science</h4>
+                <p style="font-size:20px">International University</p>
+                <hr>
+            </div>
+            <div class="project">
+                <h2>Projects</h2>
+                <hr>
+                <p style="font-size:20px;">Web portal</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum veniam quam et
+                cumque quo, a dignissimos, repellendus quidem distinctio nesciunt fugit, facilis
+                aliquam placeat quia deserunt dolor. Ab, maxime?</p>
             </div>
         </div>
     </section>

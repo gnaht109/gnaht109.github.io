@@ -239,126 +239,72 @@ main{
 
 /* About */
 .about-page{
-    padding:10px 10px;
-    margin: 30px 10px;
-    margin-top: 100px;
-    border:2px solid var(--text-color);
-    border-radius:15px;
-    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
 }
 
-.about-page p{
-    color:var(--text-color2);
+.about-page hr{
+    border-color:var(--background-color);
+    margin:10px 0px;
 }
 
-.hero .headshot img{
-    width:250px;
-    margin: 10px 10px;
-}
-
-.hero{
+.about-page section{
     display:flex;
-    flex-direction:row;
-    margin:10px 10px;
+    flex-direction: row;
+    justify-content: center;
+    border:2px solid var(--background-color);
+    width: 550px;
+    margin:50px 10px;
+    padding:40px 60px;
 }
 
-.hero .introduction{
+.about-page section div{
     margin-bottom: 20px;
 }
 
-.hero .introduction h1{
-    font-size:82px;
-    color:var(--text-color);
+.about-page .left{
+    flex:0 0 40%;
+    margin-right: 20px;
 }
 
-.hero .introduction-container{
-    display:flex;
-    justify-content: space-between;
+.about-page .right{
+    flex:0 0 60%;
+    margin-top: 70px;
+    margin-left: 20px;
 }
 
-.hero .introduction-container p{
-    padding:5px 30px;
-    margin:5px 0px;
-    border-radius: 25px;
-    background-color:var(--text-color);
+.about-page .left .skills{
+    margin-bottom: 0px;
 }
 
-.information{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    margin:10px 10px;
-}
-
-.information h3{
-    color:var(--text-color);
-    margin-bottom: 5px;
-}
-
-.information .left{
-    width:100%;
-    flex:10;
-}
-
-.information .left .education{
-    border:2px solid var(--text-color);
-    border-radius:10px;
-    margin:5px 5px;
-    padding:10px 10px;
-    width:100%;
-    flex:10;
-}
-
-.information .left .software-skills{
-    border:2px solid var(--text-color);
-    border-radius:10px;
-    margin:5px 5px;
+.about-page .left .skills i{
     margin-top: 10px;
-    padding:10px 10px;
+    font-size:20px;
+    font-style: italic;
+}
+
+.about-page .left .skills span{
+    margin-left: 10px;
+}
+
+.hinh{
+    display: flex;
+    justify-content: center;
+}
+
+.hinh img{
     width:100%;
-    flex:10;
+    height:auto;
+    object-fit: contain;
+    display: block;
 }
 
-.information .right{
-    display:inline-flex;
-    width:100%;
-    flex:10;
+.about-page .right .contact i{
+    margin-bottom: 15px;
+    margin-right: 10px;
 }
 
-.information .right .inner-right{
-    
+.about-page .right .contact span{
+    font-size:15px;
 }
 
-.information .right .inner-right .skills{
-    border:2px solid var(--text-color);
-    border-radius:10px;
-    margin:5px 5px;
-    padding:10px 10px;
-    width:100%;
-    flex:5;
-}
-
-.information .right .inner-right .language{
-    border:2px solid var(--text-color);
-    border-radius:10px;
-    margin:5px 5px;
-    padding:10px 10px;
-    width:100%;
-    flex:5;
-}
-
-.information .right .inner-left{
-    border:2px solid var(--text-color);
-    border-radius:10px;
-    margin:5px 5px;
-    padding:10px 10px;
-    width:100%;
-    flex:10;
-}
-
-.information .right .inner-right{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
-    flex:10;
-}
