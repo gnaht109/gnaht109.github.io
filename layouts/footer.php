@@ -10,10 +10,10 @@
                 <a href="https://www.facebook.com/vietthang05p/">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/vietthang109/">
                     <i class="fa-brands fa-square-instagram"></i>
                 </a>
-                <a href="#">
+                <a href="https://github.com/gnaht109">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </div>
@@ -31,20 +31,17 @@
             <h4 style="margin-bottom:10px">
                 Link
             </h4>
-            <a>
+            <a href="index.php">
                 Home
             </a>
-            <a>
+            <a href="about.php">
                 About 
             </a>
-            <a>
+            <a href="project.php">
                 Project
             </a>
-            <a>
+            <a href="gallery.php">
                 Gallery
-            </a>
-            <a>
-                Blog
             </a>
         </div>
 

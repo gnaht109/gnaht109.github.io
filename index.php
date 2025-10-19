@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" href="assets/img/iu.png" type="image/x-icon">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Portfolio</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="left">
-                <a href="index.php">
-                    PORTFOLIO
-                </a>
-            </div>
-
-            <div class="right">
-                <a href="index.php">Home</a>
-                <a href="about.php">About</a>
-                <a href="project.php">Project</a>
-                <a href="gallery.php">Gallery</a>
-                <a href="contact.php">
-                    <i class="fa-regular fa-envelope"></i>
-                </a>
-            </div>
-        </nav>
-    </header>
+<?php include 'layouts/header.php'; ?>
 
     <main>
         <section class="index-section">
@@ -51,7 +15,7 @@
                         <i class="fa-brands fa-github"></i>
                         <span>Github</span>
                     </a>
-                    <a href="mailto:vietthang05p@gmail.com">
+                    <a href="contact.php">
                         <i class="fa-solid fa-envelope"></i>
                         <span>Contact</span>
                     </a>
@@ -63,63 +27,4 @@
         </section>
     </main>
 
-    <footer class="footer-container">
-        <div>
-            <h3 style="margin-bottom:10px">Portfolio</h3>
-            <p style="margin-bottom:10px">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quisquam
-            nam est provident labore atque ea dolore tempora voluptate hic illum,
-            nostrum quia blanditiis aliquam eum quo, dolorum quibusdam quaerat.
-            </p>
-            <div class="icons">
-                <a href="https://www.facebook.com/vietthang05p/">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="projects">
-            <h4 style="margin-bottom:10px">Project</h4>
-            <a>Lemonade Orange Juice</a>
-            <a>Toyota Bentley Honda Civic</a>
-            <a>Machine Robot Arm</a>
-            <a>Elephant Giraffe Whale</a>
-        </div>
-
-        <div class="links">
-            <h4 style="margin-bottom:10px">
-                Link
-            </h4>
-            <a>
-                Home
-            </a>
-            <a>
-                About 
-            </a>
-            <a>
-                Project
-            </a>
-            <a>
-                Gallery
-            </a>
-            <a>
-                Blog
-            </a>
-        </div>
-
-        <div class="address">
-            <h4 style="margin-bottom:10px">Address</h4>
-            <a>Street 6, Thu Duc, Ho Chi Minh</a>
-            <a>+84868278098</a>
-            <a href="mailto:vietthang05p@gmail.com">vietthang05p@gmail.com</a>
-            <a>eCommerce @ 2025 All Right Reserved</a>
-        </div>
-    </footer>
-</body>
-</html>
+<?php include 'layouts/footer.php'; ?>
