@@ -1,14 +1,18 @@
+# [Project Name]
+
+Portfolio - ITCSIU23034
+
+## 🚀 Live Demo
+
+[gnaht109.github.io](https://gnaht109.github.io/)
+
+
 ## 📄 Sitemap
 
-- **Home** (`/`)
+- **Home** (`/index`)
 - **About** (`/about`)
-- **Projects** (`/projects`)
-  - Web Development (`/projects/web`)
-  - Mobile Apps (`/projects/mobile`)
-  - Open Source (`/projects/opensource`)
-- **Blog** (`/blog`)
-  - Getting Started (`/blog/getting-started`)
-  - Tutorials (`/blog/tutorials`)
-  - Updates (`/blog/updates`)
+- **Projects** (`/project`)
+  - Project1 (`/project1`)
+- **Gallery** (`/gallery`)
 - **Contact** (`/contact`)
-- **Resources** (`/resources`)
+
